@@ -1,0 +1,129 @@
+/* Réinitialisation de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corps du document */
+body {
+    font-family: 'Great-Vibes'; /* Police élégante pour le texte général */
+    background-color: #f2f0e6; /* Couleur de fond douce */
+    color: #3a3a3a; /* Couleur de texte foncée pour un bon contraste */
+    line-height: 1.6;
+}
+
+/* En-tête */
+header {
+    background-color: #8a0000; /* Couleur de fond de l'en-tête */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-family: 'Great-Vibes'; /* Police élégante pour le titre */
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+/* Contenu principal */
+main {
+    padding: 20px;
+}
+
+h2{
+    color: #8a0000;
+}
+
+p {
+    font-size: 17px; /* Taille de la police fixée à 20px */
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Styles pour les articles des compositeurs */
+article h3 {
+    font-family: 'Cinzel', serif; /* Police pour les sous-titres */
+    color: #795548; /* Couleur des sous-titres */
+    margin: 20px 0; /* Espace au-dessus et en dessous du titre */
+}
+
+article .composer-article {
+    display: flex;
+    align-items: flex-start; /* Aligner les éléments en haut */
+    margin-bottom: 50px; /* Espace entre les articles */
+    
+}
+
+article .composer-image {
+    margin-right: 30px; /* Espacement à droite des images */
+    margin-bottom: 80px; /* Ajoute un espace en dessous de l'image si nécessaire */
+    border-radius: 20px; /* Bords arrondis pour les images */
+    line-height: 0; /* Enlever l'espace supplémentaire sous l'image */
+}
+
+article .composer-image img {
+    width: 200px; /* Largeur fixe pour les images */
+    height: auto; /* Hauteur automatique pour conserver le rapport d'aspect */
+    border-radius: 20px; /* Bords arrondis pour les images */
+}
+
+article .composer-info {
+    flex: 1; /* Permet au texte de prendre tout l'espace restant */
+    text-align: left;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #8a0000;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+.animate-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.animate-text.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Animation de zoom pour les images */
+.animate-image {
+    transform: scale(0.8);
+    transition: transform 1s ease;
+}
+
+.animate-image.animate {
+    transform: scale(1);
+}

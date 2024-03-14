@@ -1,0 +1,61 @@
+/* Styles de base */
+body {
+    font-family: 'Great-Vibes', cursive;
+    background-color: #f2f0e6; /* Couleur de fond douce */
+    color: #3a3a3a; /* Couleur de texte foncée */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #8a0000; /* Couleur de fond de l'en-tête */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+/* Styles des sections */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white; /* Fond blanc pour chaque section */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #8a0000; /* Couleur d'accent */
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: justify; /* Alignement du texte */
+    margin-bottom: 15px;
+}
+
+/* Styles du pied de page */
+footer {
+    background-color: #8a0000; /* Couleur de fond du pied de page */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Autres styles personnalisés au besoin */
